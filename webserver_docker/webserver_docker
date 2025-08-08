@@ -1,0 +1,9 @@
+<script>start("/Users/dashkandhar/Desktop/Rahul/websiteserver/webserver_docker/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow(".github",".github",1,96,"96 B",1754655090,"08/08/2025, 17:41:30");</script>
+<script>addRow("app","app",1,160,"160 B",1754655116,"08/08/2025, 17:41:56");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1754655800,"08/08/2025, 17:53:20");</script>
+<script>addRow("Dockerfile","Dockerfile",0,604,"604 B",1754652105,"08/08/2025, 16:51:45");</script>
+<script>addRow("README.md","README.md",0,554,"554 B",1754652128,"08/08/2025, 16:52:08");</script>
+<script>addRow("requirements.txt","requirements.txt",0,128,"128 B",1754587311,"07/08/2025, 22:51:51");</script>
+<script>addRow("webserver_docker","webserver_docker",0,0,"0 B",1754655878,"08/08/2025, 17:54:38");</script>
