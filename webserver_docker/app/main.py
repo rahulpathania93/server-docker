@@ -12,3 +12,4 @@ if __name__ == '__main__':
     # host='0.0.0.0' → makes the app accessible outside the container
     # port=5000 → match the EXPOSE setting in Dockerfile
     app.run(host='0.0.0.0', port=5000)
+# end---------
