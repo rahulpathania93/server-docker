@@ -1,13 +1,14 @@
-from flask import Flask  # Flask is a micro web framework for Python
+from flask import Flask  # Import Flask web framework
 
-app = Flask(__name__)  # Create a Flask web app instance
+app = Flask(__name__)  # Create a Flask application instance
 
 @app.route('/')  # Define a route for the root URL
-# When someone visits http://localhost:5000/ this function runs
 def home():
-    return "<h1>Hello from Dockerized Flask WebServer!</h1>"  # Response message shown on the browser
+    # This function runs when someone visits http://localhost:5000/
+    return "<h1>Hello from Dockerized Flask WebServer!</h1>"
 
-# Run the Flask app only when the script is executed directly (not imported as a module)
+# Run the Flask server if the script is executed directly
 if __name__ == '__main__':
-    # Start the server on 0.0.0.0 so it listens to all network interfaces inside the container
+    # host='0.0.0.0' → makes the app accessible outside the container
+    # port=5000 → match the EXPOSE setting in Dockerfile
     app.run(host='0.0.0.0', port=5000)
