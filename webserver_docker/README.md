@@ -19,11 +19,11 @@ docker build -t flask-webserver .
 
 ### 3. Run the Container
 ```bash
-docker run -p 5000:5000 flask-webserver
+docker run -p 5007:5007 flask-webserver
 ```
 
 ### 4. Open in Browser
-Visit: [http://localhost:5000](http://localhost:5000)
+Visit: [http://localhost:5007](http://localhost:5007)
 
 You should see: `Hello from Dockerized Flask WebServer!`
 

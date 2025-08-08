@@ -20,7 +20,7 @@ COPY . /app
 ENV FLASK_APP=app/main.py
 
 # Expose the port Flask will run on
-EXPOSE 5000
+EXPOSE 5007
 
 # Command to run the Flask application
 CMD ["python", "app/main.py"]
